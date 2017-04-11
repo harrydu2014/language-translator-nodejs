@@ -1,11 +1,7 @@
-declared-services:
-  language-translator-service:
-    label: language_translator
-    plan: standard
 applications:
 - services:
-  - language-translator-service
-  name: language-translator-demo
+  - Language Translator-fp
+  name: language-translator-nodejs-harrytest
   command: npm start
   path: .
-  memory: 512M
+  memory: 128M
